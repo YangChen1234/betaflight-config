@@ -44,51 +44,51 @@
 #define USE_MAX7456
 
 
-#define BEEPER_PIN PB8
-#define MOTOR1_PIN PC6
-#define MOTOR2_PIN PC7
-#define MOTOR3_PIN PC8
-#define MOTOR4_PIN PC9
-#define MOTOR5_PIN PA15
-#define MOTOR6_PIN PA8
-#define MOTOR7_PIN PB10
-#define MOTOR8_PIN PB11
-#define RX_PPM_PIN PA3
-#define LED_STRIP_PIN PB1
-#define UART1_TX_PIN PA9
-#define UART2_TX_PIN PA2
-#define UART3_TX_PIN PC10
-#define UART4_TX_PIN PA0
-#define UART5_TX_PIN PC12
-#define UART1_RX_PIN PA10
-#define UART2_RX_PIN PA3
-#define UART3_RX_PIN PC11
-#define UART4_RX_PIN PA1
-#define UART5_RX_PIN PD2
-#define I2C1_SCL_PIN PB6
-#define I2C1_SDA_PIN PB7
-#define LED0_PIN PC13
-#define SPI1_SCK_PIN PA5
-#define SPI2_SCK_PIN PB13
-#define SPI3_SCK_PIN PB3
-#define SPI1_SDI_PIN PA6
-#define SPI2_SDI_PIN PB14
-#define SPI3_SDI_PIN PB4
-#define SPI1_SDO_PIN PA7
-#define SPI2_SDO_PIN PB15
-#define SPI3_SDO_PIN PB5
-#define ESCSERIAL_PIN PC11
-#define ADC_VBAT_PIN PC2
-#define ADC_RSSI_PIN PC3
-#define ADC_CURR_PIN PC1
-#define FLASH_CS_PIN PC0
-#define MAX7456_SPI_CS_PIN PA13
-#define GYRO_1_EXTI_PIN PC4
-#define GYRO_1_CS_PIN PA4
-#define USB_DETECT_PIN PB12
-#define PINIO1_PIN PC5
-#define PINIO2_PIN PA14
-#define PINIO3_PIN PC15
+#define BEEPER_PIN          PB8
+#define MOTOR1_PIN          PC6
+#define MOTOR2_PIN          PC7
+#define MOTOR3_PIN          PC8
+#define MOTOR4_PIN          PC9
+#define MOTOR5_PIN          PA15
+#define MOTOR6_PIN          PA8
+#define MOTOR7_PIN          PB10
+#define MOTOR8_PIN          PB11
+#define RX_PPM_PIN          PA3
+#define LED_STRIP_PIN       PB1
+#define UART1_TX_PIN        PA9
+#define UART2_TX_PIN        PA2
+#define UART3_TX_PIN        PC10
+#define UART4_TX_PIN        PA0
+#define UART5_TX_PIN        PC12
+#define UART1_RX_PIN        PA10
+#define UART2_RX_PIN        PA3
+#define UART3_RX_PIN        PC11
+#define UART4_RX_PIN        PA1
+#define UART5_RX_PIN        PD2
+#define I2C1_SCL_PIN        PB6
+#define I2C1_SDA_PIN        PB7
+#define LED0_PIN            PC13
+#define SPI1_SCK_PIN        PA5
+#define SPI2_SCK_PIN        PB13
+#define SPI3_SCK_PIN        PB3
+#define SPI1_SDI_PIN        PA6
+#define SPI2_SDI_PIN        PB14
+#define SPI3_SDI_PIN        PB4
+#define SPI1_SDO_PIN        PA7
+#define SPI2_SDO_PIN        PB15
+#define SPI3_SDO_PIN        PB5
+#define ESCSERIAL_PIN       PC11
+#define ADC_VBAT_PIN        PC2
+#define ADC_RSSI_PIN        PC3
+#define ADC_CURR_PIN        PC1
+#define FLASH_CS_PIN        PC0
+#define MAX7456_SPI_CS_PIN  PA13
+#define GYRO_1_EXTI_PIN     PC4
+#define GYRO_1_CS_PIN       PA4
+#define USB_DETECT_PIN      PB12
+#define PINIO1_PIN          PC5
+#define PINIO2_PIN          PA14
+#define PINIO3_PIN          PC15
 
 #define TIMER_PIN_MAPPING \
     TIMER_PIN_MAP( 0, PA3 , 2,  0) \
@@ -118,7 +118,7 @@
 #define DEFAULT_DSHOT_BITBANG DSHOT_BITBANG_OFF
 #define DEFAULT_CURRENT_METER_SOURCE CURRENT_METER_ADC
 #define DEFAULT_VOLTAGE_METER_SOURCE VOLTAGE_METER_ADC
-#define DEFAULT_CURRENT_METER_SCALE 500
+#define DEFAULT_CURRENT_METER_SCALE 206
 #define BEEPER_INVERTED
 #define SYSTEM_HSE_MHZ 8
 #define MAX7456_SPI_INSTANCE SPI2
@@ -133,4 +133,3 @@
 #define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE SPI1
 #define GYRO_1_ALIGN CW90_DEG
-
