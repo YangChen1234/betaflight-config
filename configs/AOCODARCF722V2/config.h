@@ -39,6 +39,13 @@
 #define USE_FLASH
 #define USE_FLASH_W25Q128FV
 #define USE_MAX7456
+#define USE_LED_STRIP
+#define USE_LED_STRIP_64
+#define USE_GPS
+#define USE_GPS_RESCUE
+#define USE_GPS_UBLOX
+#define USE_PINIO
+#define USE_PINIOBOX
 
 #define BEEPER_PIN           PC13
 #define MOTOR1_PIN           PC6
@@ -82,6 +89,8 @@
 #define GYRO_1_EXTI_PIN      PC4
 #define GYRO_1_CS_PIN        PA4
 #define USB_DETECT_PIN       PC15
+#define PINIO1_PIN           PA14
+#define PINIO2_PIN           PA15
 
 #define TIMER_PIN_MAPPING \
     TIMER_PIN_MAP( 0, PA10, 1,  0) \
@@ -99,6 +108,8 @@
 #define GPS_UART SERIAL_PORT_USART2
 #define MSP_UART SERIAL_PORT_UART5
 
+#define DEFAULT_FEATURES                (FEATURE_OSD | FEATURE_LED_STRIP | FEATURE_GPS )
+
 #define ADC_INSTANCE ADC3
 #define ADC3_DMA_OPT        1
 
@@ -115,3 +126,7 @@
 #define GYRO_1_SPI_INSTANCE SPI1
 #define GYRO_1_ALIGN CW90_DEG
 #define GYRO_1_ALIGN_YAW 900
+#define PINIO1_BOX 40
+#define PINIO2_BOX 41
+#define PINIO1_CONFIG 129
+#define PINIO2_CONFIG 1
