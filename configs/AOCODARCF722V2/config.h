@@ -98,6 +98,7 @@
 #define USB_DETECT_PIN       PC15
 #define PINIO1_PIN           PA14
 #define PINIO2_PIN           PA15
+#define PINIO3_PIN           PA13
 
 #define TIMER_PIN_MAPPING \
     TIMER_PIN_MAP( 0, PA10, 1,  0) \
@@ -137,5 +138,7 @@
 #define GYRO_1_ALIGN_YAW 900
 #define PINIO1_BOX 40
 #define PINIO2_BOX 41
+#define PINIO3_BOX 42
 #define PINIO1_CONFIG 129
 #define PINIO2_CONFIG 1
+#define PINIO3_CONFIG 129
