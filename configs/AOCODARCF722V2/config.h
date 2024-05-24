@@ -102,15 +102,15 @@
 
 #define TIMER_PIN_MAPPING \
     TIMER_PIN_MAP( 0, PA10, 1,  0) \
-    TIMER_PIN_MAP( 1, PC6 , 1,  0) \
-    TIMER_PIN_MAP( 2, PC7 , 1,  0) \
-    TIMER_PIN_MAP( 3, PC8 , 2,  0) \
+    TIMER_PIN_MAP( 1, PC6 , 2,  1) \
+    TIMER_PIN_MAP( 2, PC7 , 2,  1) \
+    TIMER_PIN_MAP( 3, PC8 , 2,  1 \
     TIMER_PIN_MAP( 4, PC9 , 2,  0) \
-    TIMER_PIN_MAP( 5, PB0 , 1,  0) \
-    TIMER_PIN_MAP( 6, PB1 , 1,  0) \
+    TIMER_PIN_MAP( 5, PB0 , 2,  0) \
+    TIMER_PIN_MAP( 6, PB1 , 2,  0) \
     TIMER_PIN_MAP( 7, PB6 , 1,  0) \
     TIMER_PIN_MAP( 8, PB7 , 1,  0) \
-    TIMER_PIN_MAP( 9, PA0 , 1,  2)
+    TIMER_PIN_MAP( 9, PA0 , 1,  0)
 
 #define SERIALRX_UART    SERIAL_PORT_USART1
 #define GPS_UART         SERIAL_PORT_USART2
