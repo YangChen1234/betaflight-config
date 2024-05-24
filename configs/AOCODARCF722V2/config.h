@@ -44,7 +44,6 @@
 #define USE_FLASH_W25Q128FV
 #define USE_MAX7456
 #define USE_LED_STRIP
-#define USE_LED_STRIP_64
 #define USE_GPS
 #define USE_GPS_RESCUE
 #define USE_GPS_UBLOX
